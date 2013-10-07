@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ProcOLAP.jnlp">
+  <information>
+    <title>Sample JavaFX Application</title>
+    <vendor>Unknown vendor</vendor>
+    <description>Sample JavaFX 2.0 application.</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ProcOLAP.jar" size="376163" download="eager" />
+    <jar href="postgresql-9.2-1002.jdbc4.jar" size="579785" download="eager" />
+    <jar href="scala-actors.jar" size="450110" download="eager" />
+    <jar href="scala-library.jar" size="7137903" download="eager" />
+    <jar href="scala-swing.jar" size="708935" download="eager" />
+    <jar href="slf4j-api-1.7.5.jar" size="26084" download="eager" />
+    <jar href="slf4j-nop-1.7.5.jar" size="4091" download="eager" />
+    <jar href="slick_2.10-1.0.0.jar" size="2763599" download="eager" />
+  </resources>
+<security>
+  <all-permissions/>
+</security>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ProcOLAP" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="base.UI.UI"  name="ProcOLAP" />
+  <update check="background"/>
+</jnlp>
